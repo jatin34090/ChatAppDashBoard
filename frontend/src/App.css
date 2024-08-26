@@ -1,0 +1,21 @@
+.admin-container {
+  display: grid;
+  grid-template-columns: 65px 1fr;
+  /* gap: 2rem; */
+  height: 100vh;
+  /* background-color: #E5E7EB; */
+  /* background-color: #D1D5DB; */
+}
+
+@media screen and (width<=1100px) {
+  .admin-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.message-container {
+  display: grid;
+  grid-template-columns: 3fr 9fr;
+  height: 100vh;
+
+}
